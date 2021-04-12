@@ -2,7 +2,7 @@
 
 Example python routines for multimodal camera calibration and image acquisition of our paper *"Multimodal Data Acquisition at SARS-CoV-2 Drive 
 Through Screening Centers: Setup Description and Experiences in Saarland, Germany."* and classes to read the hdf5 data 
-from our recordings. The project website can be found [here](http://www.snnu.uni-saarland.de/covid19/). We use a 4x13 circular calibration board with 1.5cm circle diameter and which is printed and glued 
+from our recordings. The project website can be found [here](http://www.snnu.uni-saarland.de/covid19/). We use a 4x13 circular calibration board with 1.5cm circle diameter which is printed and glued 
 onto a metal plate with the same pattern cutout. After heating, the pattern is visible in RGB, NIR and thermal cameras: 
 
 ![Fig1](img/fig1.jpg)
@@ -18,7 +18,7 @@ $ git clone https://github.com/phflot/multimodal_cam_calib
 
 This code consists of a python class to extract the circular calibration pattern in all cameras on synchronized 
 recordings downsampled to 10hz and stores the results in an hdf5 file. The precomputed centers can then be used for
-multicamera calibration which is based on opencv's calibration functions.
+multicamera calibration which is based on opencv's calibration functions. We use the calibration in the paper to project points from the stereo RGB cameras and from the Kinect into the thermal image.  
 
 ## Citation
 

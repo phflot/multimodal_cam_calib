@@ -1,3 +1,9 @@
+__author__ = "Philipp Flotho"
+"""
+multimodal_cam_calib
+Copyright 2021 by Philipp Flotho, All rights reserved.
+"""
+
 from src.util.IO_util import *
 
 
