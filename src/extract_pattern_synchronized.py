@@ -79,10 +79,10 @@ def _get_pattern_kinect(kinect_frame):
 
 
 if __name__ == '__main__':
-    file_path = 'G:/covid-19/data/pilot3/calibration'
-    stereo_file = 'Stereo_18_06_2020_09_59_35.h5'
-    thermal_file = 'ThermalData_18_06_2020_09_59_35.h5'
-    kinect_file = 'KINECT_FRAMES_18_06_2020_09_59_39.h5'
+    file_path = ''
+    stereo_file = ''
+    thermal_file = ''
+    kinect_file = '.h5'
 
     # loading the complete recordings
     stereo_recording = StereoRecording(fullfile(file_path, stereo_file))
