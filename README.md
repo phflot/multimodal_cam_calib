@@ -26,15 +26,16 @@ Details on the dataset from our study can be found [here](https://www.snnu.uni-s
 
 If you use this code in your work, please cite
   
-> Flotho, P., Bhamborae, M., Grun, T., Trenado, C., Thinnes, D., Limbach, D., & Strauss, D. J. (2020). Multimodal Data Acquisition at SARS-CoV-2 Drive Through Screening Centers: Setup Description and Experiences in Saarland, Germany. medRxiv.
+> Flotho, P., Bhamborae, M., Grun, T., Trenado, C., Thinnes, D., Limbach, D., & Strauss, D. J. (2021). Multimodal Data Acquisition at SARS-CoV-2 Drive Through Screening Centers: Setup Description and Experiences in Saarland, Germany. J Biophotonics.
 
 BibTeX entry
 ```
-@article{flotho2020multimodal,
-  title={Multimodal Data Acquisition at SARS-CoV-2 Drive Through Screening Centers: Setup Description and Experiences in Saarland, Germany},
-  author={Flotho, Philipp and Bhamborae, Mayur and Grun, Tobias and Trenado, Carlos and Thinnes, David and Limbach, Dominik and Strauss, Daniel J},
-  journal={medRxiv},
-  year={2020},
-  publisher={Cold Spring Harbor Laboratory Press}
+@article{flotea2021b,
+    author = {Flotho, P. and Bhamborae, M.J. and Grün, T. and Trenado, C. and Thinnes, D. and Limbach, D. and Strauss, D. J.},
+    title = {Multimodal Data Acquisition at SARS-CoV-2 Drive Through Screening Centers: Setup Description and Experiences in Saarland, Germany},
+    year = {2021},
+  journal = {J Biophotonics},
+  pages = {e202000512},
+  doi = {https://doi.org/10.1002/jbio.202000512}
 }
 ```
